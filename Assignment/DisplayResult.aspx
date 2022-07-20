@@ -75,9 +75,11 @@
                     
                   <div class="space-x-12 flex items-center justify-around my-5">
                     <div>
-                        <asp:Button ID="btnPrevious" runat="server" Text="Previous"   CssClass="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center "/>
+                        <asp:Button ID="btnPrevious" runat="server" Text="Previous"   CssClass="bg-gray-400 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center "/>
                     </div>
-                    
+                    <div>
+                        <asp:Button ID="btnExit" runat="server" Text="Exit"   CssClass="bg-gray-400 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center "/>
+                    </div> 
                 </div>
                   
 

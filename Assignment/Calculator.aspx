@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
      <div class="flex justify-center items-center h-screen bg-gray-200">
-    <div  class=" block border-4 font-bold">
+    <div  class=" block border-2 font-bold border-black px-4 py-4 rounded bg-gray-300">
         <div class="text-2xl font-bold text-center py-5"><h1>CASIO</h1></div>
         <div class="">
                <div>
@@ -16,9 +16,9 @@
             </div>
                 <div>
                     <asp:Button ID="Btn1" runat="server" Text="1" CssClass="py-3 px-6 hover:bg-gray-500 hover:text-white " />
-                    <asp:Button ID="Btn2" runat="server" Text="2" CssClass="py-3 px-6 hover:bg-gray-500 hover:text-white" />
-                    <asp:Button ID="Btn3" runat="server" Text="3" CssClass="py-3 px-6" />
-                    <asp:Button ID="BtnDiv" runat="server" Text="/" CssClass="py-3 px-6"/>
+                    <asp:Button ID="Btn2" runat="server" Text="2" CssClass="py-3 px-6  hover:bg-gray-500 hover:text-white" />
+                    <asp:Button ID="Btn3" runat="server" Text="3" CssClass="py-3 px-6 hover:bg-gray-500 hover:text-white" />
+                    <asp:Button ID="BtnDiv" runat="server" Text="/" CssClass="py-3 px-6 hover:bg-gray-500 hover:text-white"/>
 
                 </div>
              <div>

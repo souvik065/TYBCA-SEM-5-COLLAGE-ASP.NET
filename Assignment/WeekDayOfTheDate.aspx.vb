@@ -13,4 +13,12 @@ Partial Class WeekDayOfDay_WeekDayOfTheDate
         txtDate.Text = ""
         txtDay.Text = ""
     End Sub
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+
+    End Sub
+
+    Protected Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        System.Environment.Exit(0)
+    End Sub
 End Class

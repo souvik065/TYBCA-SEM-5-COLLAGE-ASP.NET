@@ -24,4 +24,8 @@ Partial Class Student_Result_DisplayResult
         CalculateResult()
     End Sub
 
+
+    Protected Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        System.Environment.Exit(0)
+    End Sub
 End Class

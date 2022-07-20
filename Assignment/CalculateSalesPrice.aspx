@@ -4,9 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <div class="flex justify-center items-center h-screen bg-gray-200" >
-            <div class="items-center border-2 rounded border-gray-500 font-bold py-5 px-5  ">
+            <div class="items-center border-2 rounded border-gray-500 font-bold py-5 px-5 bg-gray-300 ">
                 <div>
-                <h1 class="font-bold block text-center text-xl ">Calculate Sales Price</h>
+                <h1 class="font-bold block text-center text-xl ">Calculate Sales Price</h1>
                 </div>
 
                 <div class="space-x-12 flex items-center text-center ml-5  my-5">
@@ -44,10 +44,13 @@
                     
                   <div class="space-x-12 flex items-center justify-around my-5">
                     <div>
-                        <asp:Button ID="btnCalculateSalesPrice" runat="server" Text="Calculate Sales Price"   CssClass="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center "/>
+                        <asp:Button ID="btnCalculateSalesPrice" runat="server" Text="Calculate Sales Price"   CssClass="bg-gray-400 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center "/>
                     </div>
                     <div>
-                        <asp:Button ID="btnClear" runat="server" Text="Clear" CssClass="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" />
+                        <asp:Button ID="btnClear" runat="server" Text="Clear" CssClass="bg-gray-400 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" />
+                    </div>
+                       <div>
+                        <asp:Button ID="btnExit" runat="server" Text="Exit" CssClass="bg-gray-400 hover:bg-gray-500 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center" />
                     </div>
                 </div>
 
