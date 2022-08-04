@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Assignment2", "http://localhost:51297", "{D42D70EF-C077-4D8F-8F25-9022C81D8454}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51297"
+		Debug.AspNetCompiler.PhysicalPath = "D:\BCA\TYBCA-SEM-5\Collage\TYBCA-SEM-5-COLLAGE-ASP.NET\Assignment2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51297\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51297"
+		Release.AspNetCompiler.PhysicalPath = "D:\BCA\TYBCA-SEM-5\Collage\TYBCA-SEM-5-COLLAGE-ASP.NET\Assignment2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51297\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "D:\BCA\TYBCA-SEM-5\Collage\TYBCA-SEM-5-COLLAGE-ASP.NET\Assignment2\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D42D70EF-C077-4D8F-8F25-9022C81D8454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42D70EF-C077-4D8F-8F25-9022C81D8454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
