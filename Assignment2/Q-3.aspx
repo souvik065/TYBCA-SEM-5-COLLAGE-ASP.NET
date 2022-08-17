@@ -11,7 +11,7 @@
                 <asp:FileUpload ID="FileUpload1" runat="server" />
                 <asp:Button ID="btnUpload" runat="server" Text="Upload" />
                 <div>
-                    <asp:Label ID="lbmsg" runat="server" Text=""></asp:Label>
+                    <asp:Label ID="lbmsg" ForeColor="Red" runat="server" Text=""></asp:Label>
                 </div>
             </div>
         </div>

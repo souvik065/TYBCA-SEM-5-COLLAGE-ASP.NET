@@ -22,7 +22,12 @@
                             <asp:Label ID="Label1" runat="server" Text="Country :"></asp:Label>
                         </td>
                         <td>
-                            <asp:ListBox ID="ListBoxCountry" runat="server"></asp:ListBox>
+                            <asp:ListBox ID="ListBoxCountry" runat="server">
+                                <asp:ListItem>Australiya</asp:ListItem>
+                                <asp:ListItem>China</asp:ListItem>
+                                <asp:ListItem>India</asp:ListItem>
+                                <asp:ListItem>China</asp:ListItem>
+                            </asp:ListBox>
                         </td>
                     </tr>
                     <tr>
@@ -31,6 +36,9 @@
                         </td>
                         <td>
                             <asp:DropDownList ID="DropDownListState" runat="server">
+                                <asp:ListItem>Gujrat</asp:ListItem>
+                                <asp:ListItem>Maharashtra</asp:ListItem>
+                                <asp:ListItem>Karnatak</asp:ListItem>
                             </asp:DropDownList>
                         </td>
                     </tr>

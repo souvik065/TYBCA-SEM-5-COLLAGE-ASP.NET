@@ -49,7 +49,7 @@
                 <asp:View ID="ViewEducationalDetails" runat="server">
                      <table>
                 <tr>
-                    <th>Personal Details</th>
+                    <th>Schooling Details</th>
                 </tr>
                 <tr>
                     <td><asp:Label ID="Label6" runat="server" Text="Board :"></asp:Label></td>

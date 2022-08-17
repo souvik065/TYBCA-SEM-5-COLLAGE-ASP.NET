@@ -4,6 +4,7 @@ Partial Class Q_1
 
     Protected Sub tbnSubmit_Click(sender As Object, e As EventArgs) Handles tbnSubmit.Click
         lb2.Text = txtName.Text
-        Response.Write("<script>alert('Hello " + txtName.Text + "')</script>")
+        MsgBox(txtName.Text)
+
     End Sub
 End Class

@@ -1,0 +1,16 @@
+﻿@import url('lib/tailwindcss/base.css');
+@import url('lib/tailwindcss/base.min.css');
+@import url('lib/tailwindcss/components.css');
+@import url('lib/tailwindcss/components.min.css');
+@import url('lib/tailwindcss/tailwind.css');
+@import url('lib/tailwindcss/tailwind.min.css');
+@import url('lib/tailwindcss/tailwind-dark.css');
+@import url('lib/tailwindcss/tailwind-dark.min.css');
+@import url('lib/tailwindcss/utilities.css');
+@import url('lib/tailwindcss/utilities.min.css');
+
+
+
+
+body {
+}

@@ -10,6 +10,7 @@ Partial Class StudentDetailMaster
     Dim ds As DataSet
     Dim IntID As Int64
 
+
     Private Sub Insert()
         con.Open()
         cmd = New SqlCommand("Insert Into StudentMaster (RollNo,StudName,Class,Department) values(" + txtRollNo.Text + ",'" + txtFullName.Text + "','" + txtClass.Text + "','" + DropDownListDepartment.SelectedValue + "')", con)
@@ -44,6 +45,7 @@ Partial Class StudentDetailMaster
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If IsPostBack = False Then
             View()
+            txtRollNo.ToolTip = 0
         End If
 
 
