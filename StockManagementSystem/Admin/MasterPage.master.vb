@@ -13,5 +13,13 @@ Partial Class MasterPage
 
         End If
     End Sub
+
+    Protected Sub btnProduct_Click(sender As Object, e As EventArgs) Handles btnProduct.Click
+        Response.Redirect("ProductMaster.aspx")
+    End Sub
+
+    Protected Sub btnPurchase_Click(sender As Object, e As EventArgs) Handles btnPurchase.Click
+
+    End Sub
 End Class
 

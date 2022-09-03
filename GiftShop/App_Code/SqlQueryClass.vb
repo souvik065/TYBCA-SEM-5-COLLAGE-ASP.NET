@@ -9,7 +9,7 @@ Public Class SqlQueryClass
     Dim ds As DataSet
 
 
-    Public Sub ExeComand(ByVal str As String)
+    Public Sub ExeCommand(ByVal str As String)
         con.Open()
         cmd = New SqlCommand(str, con)
         cmd.ExecuteNonQuery()

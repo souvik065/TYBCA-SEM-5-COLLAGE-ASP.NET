@@ -31,22 +31,42 @@
                     <div class="col">
                         <asp:Label ID="Label4" runat="server" Text="Image :"></asp:Label>
                         <asp:FileUpload ID="imageupload" runat="server" />
+                        <asp:Label ID="lbimagepath" runat="server" Text=""></asp:Label>
                     </div>
-                    <div class="">
+                    <div class="mx-5">
                         <asp:Button ID="btnInsert" runat="server" Text="Insert" />
+                        <asp:Button ID="btnReset" runat="server" Text="Reset" />
                     </div>
+                   
+                    
+                    
 
                 </div>
-                <div class="my-5">
-                    <asp:GridView ID="GridViewProductMaster" CssClass="table" runat="server" AutoGenerateColumns="False">
+                <div class="my-5 mx-5">
+                    
+                    <asp:GridView ID="GridViewProductMaster" CssClass="table col" runat="server" AutoGenerateColumns="False" DataKeyNames="ProductID">
                         <Columns>
                             <asp:BoundField DataField="ProductID" HeaderText="ProductID" ReadOnly="True" SortExpression="ProductID" />
-                            <asp:BoundField DataField="Category" HeaderText="Catgeory" ReadOnly="True" SortExpression="Category" />
-                            <asp:BoundField DataField="ProductName" HeaderText="Product Name" ReadOnly="True" SortExpression="ProductName" />
+                            <asp:BoundField DataField="Category" HeaderText="Category" ReadOnly="True" SortExpression="Category" />
+                            <asp:BoundField DataField="ProductName" HeaderText="ProductName" ReadOnly="True" SortExpression="ProductName" />
                             <asp:BoundField DataField="Price" HeaderText="Price" ReadOnly="True" SortExpression="Price" />
-                            <asp:BoundField DataField="ImagePath" HeaderText="Image" ReadOnly="True" SortExpression="ImagePath" />
+                            <asp:BoundField DataField="ImagePath" HeaderText="ImagePath" ReadOnly="True" SortExpression="ImagePath" />
+                            <asp:TemplateField HeaderText="Edit">
+                                <ItemTemplate>
+                                    <asp:Button ID="btnEdit" runat="server" CommandName="Select" Text="Edit" />
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                            <asp:TemplateField HeaderText="Delete">
+                                <ItemTemplate>
+                                    <asp:Button ID="btnDelete" runat="server" OnClick="btnDelete_Click" Text="Delete" />
+                                </ItemTemplate>
+                            </asp:TemplateField>
                         </Columns>
                     </asp:GridView>
+                    
+                </div>
+                <div class="col">
+                     <asp:Image ID="productimageview" runat="server" />
                 </div>
                 
         </div>

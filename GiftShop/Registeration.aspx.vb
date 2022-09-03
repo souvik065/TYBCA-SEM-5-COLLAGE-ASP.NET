@@ -7,7 +7,7 @@ Partial Class Registeration
     Dim ds As DataSet
 
     Private Sub Insert()
-        sql.ExeComand("Insert Into UserMaster (UserName,Email,Password) values('" + txtUserName.Text + "','" + txtEmail.Text + "','" + txtPassword.Text + "')")
+        sql.ExeCommand("Insert Into UserMaster (UserName,Email,Password) values('" + txtUserName.Text + "','" + txtEmail.Text + "','" + txtPassword.Text + "')")
         Response.Write("<script>alert('Registered Successfully')</script>")
         Response.Redirect("Login.aspx")
     End Sub
